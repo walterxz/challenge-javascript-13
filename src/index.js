@@ -4,7 +4,8 @@ function print(a,b,c) {
 
 function flip(fn) {
   return function(){
-    // your code
+    console.log(arguments)
+    return `${arguments[2]}->${arguments[1]}->${arguments[0]}`
   }
 }
 
